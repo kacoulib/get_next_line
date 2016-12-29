@@ -1,3 +1,8 @@
+Grâce au projet get_next_line, vous allez pouvoir écrire une bonne fois pour toute
+une fonction vous permettant de lire une ligne terminée par une retour à la ligne depuis
+un file descriptor, l’ajouter à votre libft si le coeur vous en dit, et surtout l’utiliser dans
+tous vos projets suivants qui en auront besoin.
+
 int get_next_line(const int fd, char **line);
 
 Le premier paramètre est le file descriptor depuis lequel lire.
