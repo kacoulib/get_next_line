@@ -23,4 +23,4 @@ depuis l’entrée standard, depuis une redirection, etc.
 
 • Votre fichier get_next_line.h doit au moins contenir le prototype de la fonction get_next_line et une macro permettant de choisir la taille du buffer de lecture de read. Cette valeur sera modifiée en soutenance pour évaluer la robustesse de votre rendu. Cette macro devra impérativement s’appeler BUFF_SIZE. Par exemple :
 
-###define BUFF_SIZE 32
+#####define BUFF_SIZE 32
